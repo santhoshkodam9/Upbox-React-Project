@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url(../public/fonts/roboto-font/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: 'DM Sans';
+  src: url(../public/fonts/dm-sans-font/DMSans-Regular.ttf);
+}
+@font-face {
+  font-family: 'DM Serif Text';
+  src: url(../public/fonts/dm-serif-text-font/DMSerifText-Regular.ttf);
+}
+
+html, body {
+  margin: 0;
+  font-family: 'Roboto';
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-box-sizing: border-box; 
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;   
+}
+code {
+  font-family: 'Roboto';
+}

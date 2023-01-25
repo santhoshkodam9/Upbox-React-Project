@@ -1,0 +1,46 @@
+/* Desktop View &  Tab view*/
+.footer-distributed {
+  display: flex;
+  flex-flow: column wrap;
+  align-content: space-between;
+  height: 102px;
+  background: #EEEEEE;
+  border: 1px solid #C4C4C4;
+  text-align: left;
+  padding: 0px 50px;
+  margin: auto;
+  width: 95%;
+}
+.footer-distributed .footer-right {  
+  float: right;
+  margin: auto;
+}
+.footer-distributed .footer-right a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: #212425;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-left: 10px;
+  transition:all .25s;
+}
+.footer-distributed .footer-right a:hover{
+  transform:scale(1.1); 
+  -webkit-transform:scale(1.1);
+}
+
+/* Mobile view */
+@media only screen and (max-width: 767px){
+
+  .footer-distributed {
+    padding: 0px 20px;
+  }
+  .footer-left .logo {
+    width: 140px;
+  }
+
+}

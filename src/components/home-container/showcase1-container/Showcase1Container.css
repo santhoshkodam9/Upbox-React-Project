@@ -1,0 +1,130 @@
+/* Desktop View */
+.showcase1-container {
+  background-color: white;
+  width: 100%;
+  clear: both;
+}
+.showcase{         
+  display: flex;
+  justify-content: center;
+}
+.showcase1pic {
+  margin-bottom: 20px;
+  margin-left: 150px;
+  width: 324px;
+}
+.right-content-container{
+  margin-left: 20px;
+  margin-top: 40px;
+  width: 650px;
+  }
+.section-title {
+  width: 511px;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+}
+.section-left {
+  width: 391px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.01em;
+  color: #000000;
+}
+.num{
+  width: 97px;
+  left: 356px;
+  top: 800px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 220px;
+  line-height: 56px;
+  color: #EF8094;
+  position: absolute;
+}
+.number3{
+  top: 1800px;
+}
+
+/* Tab View - 769px */
+@media only screen and (min-width: 765px) and (max-width: 980px) {
+  .showcase1pic {
+    margin-left: 60px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+  .section-title {
+    width: 100%;
+    margin: auto;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+  }
+  .section-left{
+    padding: 20px 20px 10px 0px;
+    margin: 0px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+    width: 311px;
+    height: 87px;
+  }  
+  .number1{
+    left: 120px;
+    top: 750px;
+  }
+  .number3 {
+    top: 1700px;
+    left: 60px;
+  }
+}
+
+/* Mobile View - 769px */
+@media only screen and (max-width: 767px){
+
+  .showcase1-container .showcase{
+    display: block;
+    margin-bottom: 120px;
+  }
+  .showcase1-container .left-image-container{
+    text-align: center;
+  }
+  .showcase1-container .showcase1pic {
+    margin-bottom: 20px;
+    margin-left: 0px;
+    width: 80%;
+    margin: auto;
+  } 
+  .showcase1-container .right-content-container {
+    display: block;
+    margin-top: 40px;
+    width: 80%;
+    margin: auto;
+  }
+  .showcase1-container .section-title{
+    width: 100%;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -0.01em;
+  }
+  .showcase1-container .section-left {
+    width: 100%;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+  }
+  .number1{
+    top: 1200px;
+    left: 80px;
+  }
+  .number3 {
+    top: 2500px;
+    left: 20px;
+  }
+  
+}

@@ -1,0 +1,136 @@
+/* Desktop View */
+.showcase2-container {
+  padding-top: 60px;
+  background-color: #ffffff;
+  width: 100%;
+  clear: both;
+}
+.showcase2-container div.showcase {
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-bottom: 60px;
+}
+.showcase2pic{
+  width: 500px;
+  position: relative;
+  z-index: 1;
+}
+.showdowImage {
+  position: relative ;
+  width: 250px;
+  left: -200px;
+  top: -80px;
+}
+.showcase2-container .section-left{
+  padding: 10px 20px 10px 0px;
+}
+.number2{
+  top: 1420px;
+  left: 660px;
+  z-index: 99;
+}
+
+/* Tab View - 769px */
+@media only screen and (min-width: 767px) and (max-width: 980px) {
+
+  .showcase2pic {
+    width: 400px;
+    position: relative;
+    z-index: 1;
+    left: 150px;
+  }
+  .showdowImage {
+    position: relative;
+    width: 200px;
+    left: 0px;
+    top: -80px;
+  }
+  .section-title2{
+    width: 200px;
+    position: relative;
+    left: 70px;
+  }
+  .section-left2{
+    position: relative;
+    left: 300px;
+  }
+  .number2 {
+    top: 1280px;
+    left: 460px;
+  }
+  
+}
+
+/* @media only screen and (min-width: 520px) and (max-width: 766px) {
+
+  .number2 {
+    top: 1980px;
+}
+  .number3 {
+    top: 2900px;    
+}
+
+} */
+
+/* Mobile View - 376px */
+@media only screen and (max-width: 767px){
+  
+  .showcase2-container {
+    padding-top: 120px;
+    margin-bottom: 120px;
+  }
+  .showcase2-container div.showcase {
+    display: block;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding: 20px 0px;
+  }
+  .left-image-container{
+    width: 100%;
+    margin: auto;
+  }
+  .showcase2pic {
+    width: 100%;
+  }
+  .showdowImage{
+    display: none;
+  }
+  .showcase2-container .right-content-container {
+    display: block;
+    margin-top: 40px;
+    width: 80%;
+    margin: auto;
+  }
+  .showcase2-container .section-title{
+    width: 100%;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -0.01em;
+  }
+  .showcase2-container .section-left {
+    width: 100%;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+  }
+  .number2{
+    top: 1760px;
+    left: 50px;
+  }
+}
+
+@media only screen and (min-width: 520px) and (max-width: 766px) {
+  
+  .number2 {
+    top: 1980px;
+}
+  .number3 {
+    top: 2900px;    
+}
+
+}

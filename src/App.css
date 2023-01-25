@@ -1,0 +1,6 @@
+.bimg {
+    width: 100%;
+    position: relative; 
+    background-image:url(../public/assets/topbar-desktop.png);
+    background-repeat: no-repeat;
+  }
